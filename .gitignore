@@ -1,4 +1,4 @@
 /notebooks/.env
 /notebooks/Dataset
-/notebooks/data.csv
+/notebooks/*.csv
 /figures/
