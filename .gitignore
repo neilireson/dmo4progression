@@ -5,14 +5,3 @@
 /tmp/
 Dataset/
 /notebooks/.ipynb_checkpoints/
-
-# Allow
-!figures/all_features/all_model_feature_rankings_G0.csv
-!figures/all_features/all_model_feature_rankings_G1.csv
-!figures/all_features/all_model_feature_rankings_G2.csv
-!figures/all_features/all_model_feature_rankings_G3.csv
-
-!figures/all_features/hpt_results_log_G0.csv
-!figures/all_features/hpt_results_log_G1.csv
-!figures/all_features/hpt_results_log_G2.csv
-!figures/all_features/hpt_results_log_G3.csv
