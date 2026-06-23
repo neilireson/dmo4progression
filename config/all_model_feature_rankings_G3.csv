@@ -1,0 +1,13 @@
+Rank,Feature,SFS_SVM,SFS_KNN,SFS_LR,SFS_DT,SFS_RF,SFS_XGB,SFS_MLP
+1,cadence_30_avg_w,1.0,6.0,,,,,2.0
+2,cadence_all_var_w,2.0,8.0,1.0,,,2.0,1.0
+3,cadence_all_avg_w,3.0,,,,,,
+4,cadence_30_p90_w,4.0,4.0,3.0,,,1.0,3.0
+5,wbdur_all_var_w,5.0,7.0,,,,,
+6,wbdur_all_avg_w,,10.0,,2.0,1.0,,
+7,strdur_all_avg_w,,9.0,,,,,
+8,wbdur_all_p90_w,,5.0,,,,,4.0
+9,ws_30_avg_w,,,2.0,,,,
+10,n_days_w,,,,1.0,2.0,4.0,5.0
+11,gender,,,,3.0,,3.0,
+12,wb_60_sum_w,,,,,3.0,,
