@@ -1,0 +1,8 @@
+model_type,search_type,best_score,classifier__C,classifier__gamma,classifier__kernel,classifier__algorithm,classifier__metric,classifier__n_neighbors,classifier__p,classifier__weights,classifier__fit_intercept,classifier__l1_ratio,classifier__penalty,classifier__solver,classifier__ccp_alpha,classifier__criterion,classifier__max_depth,classifier__max_features,classifier__min_samples_leaf,classifier__min_samples_split,classifier__bootstrap,classifier__n_estimators,classifier__colsample_bytree,classifier__learning_rate,classifier__min_child_weight,classifier__reg_alpha,classifier__reg_lambda,classifier__subsample,classifier__activation,classifier__alpha,classifier__hidden_layer_sizes,classifier__learning_rate_init
+SVM,grid,0.7671,1.3,scale,rbf,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KNN,grid,0.7547,,,,brute,minkowski,5,2,distance,,,,,,,,,,,,,,,,,,,,,,
+LR,grid,0.7108,1,,,,,,,,FALSE,0.5,elasticnet,saga,,,,,,,,,,,,,,,,,,
+DT,grid,0.7384,,,,,,,,,,,,,0,entropy,10,sqrt,5,2,,,,,,,,,,,,
+RF,grid,0.6772,,,,,,,,,,,,,,entropy,15,sqrt,1,2,TRUE,100,,,,,,,,,,
+XGB,bayes,0.5851,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MLP,bayes,0.7124,,,,,,,,,,,,adam,,,,,,,,,,constant,,,,,relu,0.0001,100,0.001
