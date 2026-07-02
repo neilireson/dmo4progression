@@ -1,7 +1,6 @@
 /notebooks/.env
-/notebooks/Dataset
 /notebooks/*.csv
+/notebooks/.ipynb_checkpoints/
+/data/
 /output/
 /tmp/
-Dataset/
-/notebooks/.ipynb_checkpoints/
